@@ -1,0 +1,5 @@
+def too_long(chat):
+    if len(chat) <= 140:
+        print(chat)
+    else:
+        print("too long to send")
